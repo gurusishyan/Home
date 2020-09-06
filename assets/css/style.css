@@ -9,12 +9,12 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: #444444;
 }
 
 a {
-  color: #14c871;
+  color: #7032a5;
 }
 
 a:hover {
@@ -22,8 +22,13 @@ a:hover {
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Raleway", sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Raleway', sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -45,13 +50,13 @@ h1, h2, h3, h4, h5, h6 {
   width: 40px;
   height: 40px;
   border-radius: 4px;
-  background: #16df7e;
+  background: rgb(112, 50, 165);
   color: #fff;
   transition: all 0.4s;
 }
 
 .back-to-top i:hover {
-  background: #206bfb;
+  background: #ff8000;
   color: #fff;
 }
 
@@ -112,6 +117,9 @@ h1, h2, h3, h4, h5, h6 {
   white-space: nowrap;
   padding: 10px 0 10px 28px;
 }
+.icofont-play-alt-2 {
+  color: rgb(112, 50, 165) !important;
+}
 
 .nav-menu a {
   display: block;
@@ -119,11 +127,13 @@ h1, h2, h3, h4, h5, h6 {
   color: #5f687b;
   transition: 0.3s;
   font-size: 14px;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
-.nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #14c871;
+.nav-menu a:hover,
+.nav-menu .active > a,
+.nav-menu li:hover > a {
+  color: #7032a5;
 }
 
 .nav-menu .drop-down ul {
@@ -159,12 +169,14 @@ h1, h2, h3, h4, h5, h6 {
   color: #5f687b;
 }
 
-.nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
+.nav-menu .drop-down ul a:hover,
+.nav-menu .drop-down ul .active > a,
+.nav-menu .drop-down ul li:hover > a {
   color: #14c871;
 }
 
 .nav-menu .drop-down > a:after {
-  content: "\ea99";
+  content: '\ea99';
   font-family: IcoFont;
   padding-left: 5px;
 }
@@ -185,7 +197,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu .drop-down .drop-down > a:after {
-  content: "\eaa0";
+  content: '\eaa0';
   font-family: IcoFont;
   position: absolute;
   right: 15px;
@@ -199,7 +211,7 @@ h1, h2, h3, h4, h5, h6 {
     left: -100%;
   }
   .nav-menu .drop-down .drop-down > a:after {
-    content: "\ea9d";
+    content: '\ea9d';
   }
 }
 
@@ -218,9 +230,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .get-started-btn:hover {
-  background: #206bfb;
+  background: #7032a5;
   color: #fff;
-  border-color: #206bfb;
+  border-color: #7032a5;
 }
 
 @media (max-width: 768px) {
@@ -281,13 +293,15 @@ h1, h2, h3, h4, h5, h6 {
   outline: none;
 }
 
-.mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
+.mobile-nav a:hover,
+.mobile-nav .active > a,
+.mobile-nav li:hover > a {
   color: #16df7e;
   text-decoration: none;
 }
 
 .mobile-nav .drop-down > a:after {
-  content: "\ea99";
+  content: '\ea99';
   font-family: IcoFont;
   padding-left: 10px;
   position: absolute;
@@ -295,7 +309,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav .active.drop-down > a:after {
-  content: "\eaa1";
+  content: '\eaa1';
 }
 
 .mobile-nav .drop-down > a {
@@ -357,12 +371,12 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero h2 {
   color: #858ea1;
-  margin: 10px 0  30px 0;
+  margin: 10px 0 30px 0;
   font-size: 24px;
 }
 
 #hero .btn-get-started {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 1px;
@@ -371,12 +385,12 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 4px;
   transition: 0.5s;
   color: #fff;
-  background: #16df7e;
+  background: #ff8000;
   box-shadow: 0 8px 28px rgba(22, 223, 126, 0.45);
 }
 
 #hero .btn-get-started:hover {
-  background: #206bfb;
+  background: #7032a5;
   box-shadow: 0 8px 28px rgba(32, 107, 251, 0.45);
 }
 
@@ -540,7 +554,7 @@ section {
 }
 
 .featured-services .icon i {
-  color: #16df7e;
+  color: #7032a5;
   font-size: 36px;
 }
 
@@ -560,7 +574,7 @@ section {
 }
 
 .featured-services .icon-box:hover .title a {
-  color: #16df7e;
+  color: #7032a5;
 }
 
 .featured-services .description {
@@ -613,7 +627,7 @@ section {
 .counts .counters p {
   padding: 0;
   margin: 0 0 20px 0;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 14px;
   font-weight: 600;
 }
@@ -692,7 +706,8 @@ section {
   transition: all 0.3s ease-in-out;
 }
 
-.portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
+.portfolio #portfolio-flters li:hover,
+.portfolio #portfolio-flters li.filter-active {
   color: #16df7e;
 }
 
@@ -729,7 +744,8 @@ section {
   margin-bottom: 0;
 }
 
-.portfolio .portfolio-item .portfolio-info .preview-link, .portfolio .portfolio-item .portfolio-info .details-link {
+.portfolio .portfolio-item .portfolio-info .preview-link,
+.portfolio .portfolio-item .portfolio-info .details-link {
   position: absolute;
   right: 40px;
   font-size: 24px;
@@ -738,7 +754,8 @@ section {
   transition: 0.3s;
 }
 
-.portfolio .portfolio-item .portfolio-info .preview-link:hover, .portfolio .portfolio-item .portfolio-info .details-link:hover {
+.portfolio .portfolio-item .portfolio-info .preview-link:hover,
+.portfolio .portfolio-item .portfolio-info .details-link:hover {
   color: #16df7e;
 }
 
@@ -781,7 +798,8 @@ section {
   margin: 0 0 0 45px;
 }
 
-.testimonials .testimonial-item .quote-icon-left, .testimonials .testimonial-item .quote-icon-right {
+.testimonials .testimonial-item .quote-icon-left,
+.testimonials .testimonial-item .quote-icon-right {
   color: #e4e6ea;
   font-size: 26px;
 }
@@ -810,7 +828,8 @@ section {
   z-index: 1;
 }
 
-.testimonials .owl-nav, .testimonials .owl-dots {
+.testimonials .owl-nav,
+.testimonials .owl-dots {
   margin-top: 5px;
   text-align: center;
 }
@@ -825,7 +844,7 @@ section {
 }
 
 .testimonials .owl-dot.active {
-  background-color: #16df7e !important;
+  background-color: #ff8000 !important;
 }
 
 @media (max-width: 767px) {
@@ -854,7 +873,7 @@ section {
 }
 
 .cta .cta-btn {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
   font-weight: 500;
   font-size: 16px;
@@ -929,8 +948,8 @@ section {
 # Contact
 --------------------------------------------------------------*/
 .contact .info {
-  border-top: 3px solid #16df7e;
-  border-bottom: 3px solid #16df7e;
+  border-top: 3px solid rgb(112, 50, 165);
+  border-bottom: 3px solid rgb(112, 50, 165);
   padding: 30px;
   width: 100%;
   background-color: #f9f9fa;
@@ -938,7 +957,7 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  color: #16df7e;
+  color: rgb(112, 50, 165);
   float: left;
   width: 44px;
   height: 44px;
@@ -989,15 +1008,17 @@ section {
   color: #fff;
 }
 
-.contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
+.contact .info .email:hover i,
+.contact .info .address:hover i,
+.contact .info .phone:hover i {
   background: #16df7e;
   color: #fff;
 }
 
 .contact .php-email-form {
   width: 100%;
-  border-top: 3px solid #16df7e;
-  border-bottom: 3px solid #16df7e;
+  border-top: 3px solid #ff8000;
+  border-bottom: 3px solid #ff8000;
   padding: 30px;
   background-color: #f9f9fa;
 }
@@ -1044,7 +1065,7 @@ section {
 }
 
 .contact .php-email-form .loading:before {
-  content: "";
+  content: '';
   display: inline-block;
   border-radius: 50%;
   width: 24px;
@@ -1056,14 +1077,16 @@ section {
   animation: animate-loading 1s linear infinite;
 }
 
-.contact .php-email-form input, .contact .php-email-form textarea {
+.contact .php-email-form input,
+.contact .php-email-form textarea {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
   border-radius: 4px;
 }
 
-.contact .php-email-form input:focus, .contact .php-email-form textarea:focus {
+.contact .php-email-form input:focus,
+.contact .php-email-form textarea:focus {
   border-color: #16df7e;
 }
 
@@ -1075,8 +1098,8 @@ section {
   padding: 10px 12px;
 }
 
-.contact .php-email-form button[type="submit"] {
-  background: #16df7e;
+.contact .php-email-form button[type='submit'] {
+  background: #ff8000;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1084,8 +1107,8 @@ section {
   border-radius: 4px;
 }
 
-.contact .php-email-form button[type="submit"]:hover {
-  background: #206bfb;
+.contact .php-email-form button[type='submit']:hover {
+  background: rgb(112, 50, 165) !important;
 }
 
 @-webkit-keyframes animate-loading {
@@ -1137,7 +1160,7 @@ section {
   display: inline-block;
   padding-right: 10px;
   color: #778196;
-  content: "/";
+  content: '/';
 }
 
 @media (max-width: 992px) {
@@ -1171,7 +1194,8 @@ section {
   z-index: 1;
 }
 
-.portfolio-details .portfolio-details-carousel .owl-nav, .portfolio-details .portfolio-details-carousel .owl-dots {
+.portfolio-details .portfolio-details-carousel .owl-nav,
+.portfolio-details .portfolio-details-carousel .owl-dots {
   margin-top: 5px;
   text-align: left;
 }
@@ -1264,7 +1288,7 @@ section {
   font-weight: 700;
   color: #5f687b;
   position: relative;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   padding-bottom: 0;
   margin-bottom: 0;
 }
@@ -1291,13 +1315,13 @@ section {
   border: 1px solid #e4e6ea;
 }
 
-#footer .footer-top .footer-newsletter form input[type="email"] {
+#footer .footer-top .footer-newsletter form input[type='email'] {
   border: 0;
   padding: 4px 8px;
   width: calc(100% - 100px);
 }
 
-#footer .footer-top .footer-newsletter form input[type="submit"] {
+#footer .footer-top .footer-newsletter form input[type='submit'] {
   position: absolute;
   top: -1px;
   right: -1px;
@@ -1306,15 +1330,15 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: #16df7e;
+  background: rgb(112, 50, 165);
   color: #fff;
   transition: 0.3s;
   border-radius: 0 4px 4px 0;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 
-#footer .footer-top .footer-newsletter form input[type="submit"]:hover {
-  background: #206bfb;
+#footer .footer-top .footer-newsletter form input[type='submit']:hover {
+  background: #ff8000;
 }
 
 #footer .footer-top .social-links {
@@ -1360,7 +1384,8 @@ section {
 }
 
 @media (max-width: 992px) {
-  #footer .copyright, #footer .credits {
+  #footer .copyright,
+  #footer .credits {
     float: none;
     -moz-text-align-last: center;
     text-align-last: center;
