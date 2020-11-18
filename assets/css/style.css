@@ -386,14 +386,16 @@ h6 {
   transition: 0.5s;
   color: #fff;
   background: #ff8000;
-  box-shadow: 0 8px 28px rgba(22, 223, 126, 0.45);
+  box-shadow: 0 8px 28px rgba(255, 128, 0, 0.45);
 }
 
 #hero .btn-get-started:hover {
   background: #7032a5;
-  box-shadow: 0 8px 28px rgba(32, 107, 251, 0.45);
+  box-shadow: 0 8px 28px rgba(112, 50, 165, 0.45);
 }
-
+.up-down-animation {
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
 #hero .btn-watch-video {
   font-size: 16px;
   display: inline-block;
